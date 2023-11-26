@@ -8,4 +8,5 @@ let markup style content =
 let emphasize content = 
     markup primaryStyle content
 
-let printMarkedUp content = AnsiConsole.Markup $"{content}{System.Environment.NewLine}"
+let printMarkedUp content = 
+    AnsiConsole.Markup $"{content}{System.Environment.NewLine}"
